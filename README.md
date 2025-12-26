@@ -2,8 +2,11 @@
 
 ### Установка
 
-```bash
-python -m pip install -e .
+```powershell
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+python -m venv hh-applicant-venv
+.\hh-applicant-venv\Scripts\activate
+pip install hh-applicant-tool[qt]
 ```
 
 ### Авторизация
